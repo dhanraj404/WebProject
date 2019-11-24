@@ -1,4 +1,6 @@
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -59,7 +61,6 @@ a{
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
-    margin-top: 50px;
 }
 h1{
 	font-weight: bold;
@@ -96,12 +97,23 @@ p{
 
 }
 .bg {
-  background-image: url('contact.png');
-}
-.devi{background-image: url('Developers.png');
+  background-image: url("contact.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 #section3{
-    height=700px;
+	height: 700px;
 	display: inline-block;
-    width: 100%;
+	width: 100%;
+}
+.bg1 {
+  background-image: url("Developers.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
