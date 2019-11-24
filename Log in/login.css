@@ -1,0 +1,67 @@
+body{
+    background-image: url('back.png') ;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: 100%  100%;
+    font-family: sans-serif;
+}
+.nav-logo img{
+    display: flex;
+    padding: 2% 4%;
+	width: 5%;
+}
+.box{
+    border-radius: 20px ;
+    width:  300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+
+    width: 280px;
+    border:red;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type = "submit"]:hover{
+
+    background: red;
+
+}
