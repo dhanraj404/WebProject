@@ -1,6 +1,4 @@
-html{
-	scroll-behavior: smooth;
-}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -39,15 +37,71 @@ a{
 	display: inline-block;
 	width: 100%;
 }
+.first{
+	box-sizing: border-box;
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+.container{
+	background: #ff416c;
+	background: linear-gradient(to right,#ff4b2b,#ff416c) no-repeat 0 0/cover;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+    margin-top: 50px;
+}
+h1{
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+p{
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+	padding: 5px;
+}
+.txt{
+	text-align: center;
+
+}
+.i{
+	border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 #section2{
 	height: 700px;
-	background: red;
 	display: inline-block;
 	width: 100%;
+
+}
+.bg {
+  background-image: url('contact.png');
+}
+.devi{background-image: url('Developers.png');
 }
 #section3{
-	height: 700px;
-	background: black;
+    height=700px;
 	display: inline-block;
-	width: 100%;
+    width: 100%;
 }
