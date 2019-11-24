@@ -1,0 +1,68 @@
+body{
+    background-image: url('../img/back.png') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+}
+.nav-logo img{
+    display: flex;
+    padding: 2% 4%;
+	width: 5%;
+}
+
+.box{
+    border-radius: 20px ;
+    width:  500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type ="pnumber"],.box input[type = "repassword"],.box input[type ="email"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type ="pnumber"]:focus,.box input[type = "repassword"]:focus,.box input[type ="email"]:focus{
+
+    width: 280px;
+    border: #2ecc71;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type = "submit"]:hover{
+
+    background: red;
+
+}
