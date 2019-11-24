@@ -3,6 +3,7 @@ $grey: #eee;
 
 body {
   background-color: $grey;
+  
 }
 .nav{
 	text-align: center;
@@ -45,7 +46,8 @@ a{
   min-height: 8em;
   box-shadow: 3px 0px 5px rgba(0,0,0,.2);
   border-left: 4px solid #0cc;
-    position: relative
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .post-desc
 {
@@ -54,7 +56,8 @@ a{
     width: 100%;
     height: auto;
     border-top: 1px solid #000;
-    position: relative
+    font-family: serif;
+    font-weight: normal;
 }
 input[type="button"]
 {
