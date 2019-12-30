@@ -59,7 +59,7 @@ a{
     font-family: serif;
     font-weight: normal;
 }
-input[type="button"]
+button[type="button"]
 {
     background-color: #32508e;
     margin-right: 20px; 
