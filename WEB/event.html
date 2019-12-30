@@ -2,6 +2,17 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./css/event.css" />
+       <script type="text/javascript">
+            function count(){
+                document.getElementById('j1').innerHTML="Joined";
+                }
+            function count1(){
+                document.getElementById('j2').innerHTML="Joined";
+            }
+            function count2(){
+                document.getElementById('j3').innerHTML="Joined";
+            }
+        </script>
         <title>Event</title>
     </head>
     <body>
@@ -21,12 +32,13 @@
     
       <p>Pentagram: Math-o-Mania.</p>
     <div class="post-desc"> 
-        <p>Description:Bored of hearing lectures all day?  Come to our event 
+        <p id="1">Description:Bored of hearing lectures all day?  Come to our event 
             where you can have fun and showcase your puzzle solving skills!!!
             Register now!!!!
         </p>
-        <input type="button" value="Join" style="float: right;"/>
-        </div>
+        
+        <button type="button" value="Join" style="float: right;" id="j1" onclick="count()">Join</button>
+            </div>
 
       </div>
         
@@ -37,7 +49,7 @@
         <p>Description:
 Interested in eastern music, this is best place to show your talent ! Come join us for a musical evening.
         </p>
-        <input type="button" value="Join" style="float: right;"/>
+        <button type="button" value="Join" style="float: right;" id="j2" onclick="count1()">Join</button>
         </div>
 
       </div>
@@ -48,7 +60,7 @@ Interested in eastern music, this is best place to show your talent ! Come join 
 Intersted in photography but dont know where to start? Join us on this event and get a chance to meet Wildlife Photographer
             Anuroop Krishnan and many others!!
         </p>
-        <input type="button" value="Join" style="float: right;"/>
+        <button type="button" value="Join" style="float: right;" id="j3" onclick="count2()">Join</button>
         </div>
 
       </div>

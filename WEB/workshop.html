@@ -2,6 +2,17 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./css/workshop.css" />
+        <script type="text/javascript">
+            function count(){
+                document.getElementById('j1').innerHTML="Joined";
+                }
+            function count1(){
+                document.getElementById('j2').innerHTML="Joined";
+            }
+            function count2(){
+                document.getElementById('j3').innerHTML="Joined";
+            }
+        </script>
         <title>Workshop</title>
     </head>
     <body>
@@ -24,7 +35,7 @@
         <p>Description:
             Do you know? Which Electronic domain will rule the world in the coming years? According to a technical journal its Internet of Things, which is going to rule the world by 2025. So, here is an opportunity for you to gain knowledge and hands-on experience in the field of IOT.
         </p>
-        <input type="button" value="Join" style="float: right;"/>
+        <button type="button" value="Join" style="float: right;" id="j1" onclick="count()">Join</button>
         </div>
 
       </div>
@@ -36,7 +47,7 @@
         <p>Description:
 An individual hands on workshop where the students will learn about the basics of raspberry pi and its application on energy sustainability.<br>Register today!
         </p>
-        <input type="button" value="Join" style="float: right;"/>
+        <button type="button" value="Join" style="float: right;" id="j2" onclick="count1()">Join</button>
         </div>
 
       </div>
@@ -46,7 +57,7 @@ An individual hands on workshop where the students will learn about the basics o
         <p>Description:
 An expert class on the art of research paper writing. This class deals with the smallest of nuances, right from the mindset needed to conceptualize a problem statement to the final presentation and publication of the paper. Registration Fee: 50 INR for IEEE; 100 INR for non IEEE members.
         </p>
-        <input type="button" value="Join" style="float: right;"/>
+        <button type="button" value="Join" style="float: right;" id="j3" onclick="count2()">Join</button>
         </div>
 
       </div>
